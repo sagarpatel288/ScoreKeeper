@@ -54,7 +54,7 @@ ScoreKeeper is the application as a part of Google Udacity India Scholar Android
 * Each team has a unique team name, current score and set of custom buttons to add 3, 2 and 1 points
 * Result button to see the result
 * Reset button to reset the game at any stage
-* Dialog [Dialog Fragment](https://developer.android.com/reference/android/app/DialogFragment) to show result and reset alert
+* [Dialog Fragment](https://developer.android.com/reference/android/app/DialogFragment) to show _result_ and _reset alert_
 * Custom button with gradient background, rounded corners and ripple effects for Api 21 and above
 * Screen configuration (Orientation) change support
 * Optimized singleton for Typeface

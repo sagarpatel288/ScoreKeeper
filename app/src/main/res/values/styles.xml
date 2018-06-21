@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Base style for width and height match parent-->
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--Base style for width match parent and height wrap content for ConstraintLayout-->
+    <style name="ConsMatchWidthWrapHeight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Style for the name of teams-->
+    <style name="TxtTitleName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:textSize">@dimen/txt_heading_one</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--Style for the team score-->
+    <style name="TxtTitleName.TxtScore">
+        <item name="android:textSize">@dimen/txt_heading_one_large</item>
+    </style>
+
+    <!--Style for the button-->
+    <style name="TxtTitleName.Btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/view_space</item>
+        <item name="android:layout_marginRight">@dimen/view_space</item>
+        <item name="android:textSize">@dimen/txt_heading_three</item>
+        <item name="android:background">@drawable/bg_gradient_rect</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Style for Custom Button of MainActivity-->
+    <style name="TxtTitleName.Btn.CustomBtn">
+        <item name="android:padding">@dimen/padding_custom_btn</item>
+        <item name="android:gravity">center</item>
+        <item name="btnTxtColor">@android:color/white</item>
+        <item name="btnTxtPressedColor">@android:color/white</item>
+        <item name="typeface">regular</item>
+    </style>
+
+    <!--Style for the trailed buttons of MainActivity-->
+    <style name="TxtTitleName.Btn.CustomBtn.Trailed">
+        <item name="typeface">bold</item>
+    </style>
+
+    <!--Style for Dialog buttons-->
+    <style name="TxtTitleName.Btn.CustomBtn.DialogBtn">
+        <item name="android:background">@null</item>
+        <item name="android:padding">@dimen/view_space_dialog</item>
+        <item name="btnTxtColor">@android:color/black</item>
+        <item name="btnTxtPressedColor">@android:color/transparent</item>
+        <item name="typeface">bold</item>
+    </style>
+
+</resources>

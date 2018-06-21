@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Width of divider that separates both team and results into two columns-->
+    <dimen name="view_divider_width">1dp</dimen>
+    <!--Standard view space surrounding to any view if given-->
+    <dimen name="view_space">16dp</dimen>
+    <!--Dialog view space-->
+    <dimen name="view_space_dialog">18dp</dimen>
+    <!--Short view space surrounding to any view if given-->
+    <!--Padding for custom button-->
+    <dimen name="padding_custom_btn">10dp</dimen>
+    <!--Medium view space surrounding to any view if given-->
+    <!--Large view space surrounding to any view if given-->
+    <!--Extra large view space surrounding to any view if given-->
+    <!--Double Extra large view space surrounding to any view if given-->
+    <dimen name="view_space_xx_large">200dp</dimen>
+    <!--TextView size-->
+    <!--TextView size-->
+    <dimen name="txt_heading_three">16sp</dimen>
+    <!--TextView size-->
+    <dimen name="txt_heading_two">18sp</dimen>
+    <!--TextView size-->
+    <dimen name="txt_heading_one">22sp</dimen>
+    <!--TextView size-->
+    <dimen name="txt_heading_one_large">56sp</dimen>
+    <!--Button radius-->
+    <dimen name="radius_btn">8dp</dimen>
+</resources>

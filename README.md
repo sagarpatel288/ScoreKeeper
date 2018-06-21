@@ -46,7 +46,7 @@ ScoreKeeper is the application as a part of Google Udacity India Scholar Android
 
 * Tried to follow best practices
 * Style for common set of attributes
-* Resource files according to resources. E.g. dimens for dimensions
+* Resource files according to type of resources. E.g. dimens for dimensions
 * Proper unit according to type of resource. E.g. sp for TextView 
 * Java documentation throughout the application
 * Proper usage of Android Studio's _Reformat_ and _Rearrange_ option

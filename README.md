@@ -1,4 +1,4 @@
-# ScoreKeeper ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# ScoreKeeper
 
 ScoreKeeper is the application as a part of Google Udacity India Scholar Android Basic Nanodegree Project.
 
